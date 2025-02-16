@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+
+form{
+	display:flex;
+	flex-direction:column;
+}
+form *{
+	margin-bottom:10px;
+}
+form input,select,button{
+	width:60%;
+}
